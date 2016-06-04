@@ -38,7 +38,6 @@
     <Compile Include="Events.cs" />
     <Compile Include="EventStore.cs" />
     <Compile Include="FakeBus.cs" />
-    <Compile Include="InfrastructureCrap.DontBotherReadingItsNotImportant.cs" />
     <Compile Include="Message.cs" />
     <Compile Include="Properties\ReadModel.cs" />
     <Compile Include="ReadModel.cs" />
@@ -54,6 +53,7 @@
     <Compile Include="Handles.cs" />
     <Compile Include="ICommandSender.cs" />
     <Compile Include="IEventPublisher.cs" />
+    <Compile Include="PrivateReflectionDynamicObjectExtensions.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
